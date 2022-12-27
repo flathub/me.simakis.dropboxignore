@@ -1,0 +1,8 @@
+[Desktop Entry]
+Version=1.0
+Name=dropboxignore
+Exec=dropboxignore.sh %u
+Type=Application
+Icon=me.simakis.dropboxignore
+Categories=Utility
+Terminal=true
