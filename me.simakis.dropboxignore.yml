@@ -10,17 +10,17 @@ modules:
  - name: dropboxingore
    buildsystem: simple
    build-commands:
-     - install -D bin/dropboxignore.sh /app/bin/dropboxignore.sh
-     - install -Dm644 icons/64.png ${FLATPAK_DEST}/share/icons/hicolor/64x64/apps/${FLATPAK_ID}.png
-     - install -Dm644 icons/128.png ${FLATPAK_DEST}/share/icons/hicolor/128x128/apps/${FLATPAK_ID}.png
-     - install -Dm644 icons/256.png ${FLATPAK_DEST}/share/icons/hicolor/256x256/apps/${FLATPAK_ID}.png
-     - install -Dm644 icons/512.png ${FLATPAK_DEST}/share/icons/hicolor/512x512/apps/${FLATPAK_ID}.png
+     - make install DESTSCRIPTNAME=dropboxignore.sh DESTBINDIR=/app/bin DESTLIBDIR=/app/lib
+     - install -Dm644 docs/static/icons/64.png ${FLATPAK_DEST}/share/icons/hicolor/64x64/apps/${FLATPAK_ID}.png
+     - install -Dm644 docs/static/icons/128.png ${FLATPAK_DEST}/share/icons/hicolor/128x128/apps/${FLATPAK_ID}.png
+     - install -Dm644 docs/static/icons/256.png ${FLATPAK_DEST}/share/icons/hicolor/256x256/apps/${FLATPAK_ID}.png
+     - install -Dm644 docs/static/icons/512.png ${FLATPAK_DEST}/share/icons/hicolor/512x512/apps/${FLATPAK_ID}.png
      - install -Dm644 --target-directory=/app/share/metainfo me.simakis.dropboxignore.metainfo.xml
      - install -Dm644 me.simakis.dropboxignore.desktop -t /app/share/applications
    sources:
      - type: git
        url: https://github.com/sp1thas/dropboxignore.git
-       commit: 2684ace4ec1fc95b0c6ec4102f1d9f21ed295d4c
+       commit: 3744ac94585a6373500ec4290e32c3b61e55a932
      - type: file
        path: me.simakis.dropboxignore.metainfo.xml
      - type: file

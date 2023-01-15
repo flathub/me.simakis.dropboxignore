@@ -38,36 +38,36 @@
   </content_rating>
     <screenshots>
         <screenshot type="default">
-            <caption>dropboxognore ignore command usage</caption>
-            <image type="source">https://raw.githubusercontent.com/sp1thas/dropboxignore/master/docs/static/ignore.png</image>
+            <caption>dropboxignore ignore command usage</caption>
+            <image type="source">https://dropboxignore.simakis.me/static/screenshots/ignore.png</image>
         </screenshot>
         <screenshot>
-            <caption>dropboxognore genupi command usage</caption>
-            <image type="source">https://raw.githubusercontent.com/sp1thas/dropboxignore/master/docs/static/genupi.png</image>
+            <caption>dropboxignore genupi command usage</caption>
+            <image type="source">https://dropboxignore.simakis.me/static/screenshots/genupi.png</image>
         </screenshot>
         <screenshot>
-            <caption>dropboxognore list command usage</caption>
-            <image type="source">https://raw.githubusercontent.com/sp1thas/dropboxignore/master/docs/static/list.png</image>
+            <caption>dropboxignore list command usage</caption>
+            <image type="source">https://dropboxignore.simakis.me/static/screenshots/list.png</image>
         </screenshot>
         <screenshot>
-            <caption>dropboxognore generate command usage</caption>
-            <image type="source">https://raw.githubusercontent.com/sp1thas/dropboxignore/master/docs/static/generate.png</image>
+            <caption>dropboxignore generate command usage</caption>
+            <image type="source">https://dropboxignore.simakis.me/static/screenshots/generate.png</image>
         </screenshot>
         <screenshot>
-            <caption>dropboxognore delete command usage</caption>
-            <image type="source">https://raw.githubusercontent.com/sp1thas/dropboxignore/master/docs/static/delete.png</image>
+            <caption>dropboxignore delete command usage</caption>
+            <image type="source">https://dropboxignore.simakis.me/static/screenshots/delete.png</image>
         </screenshot>
         <screenshot>
-            <caption>dropboxognore update command usage</caption>
-            <image type="source">https://raw.githubusercontent.com/sp1thas/dropboxignore/master/docs/static/update.png</image>
+            <caption>dropboxignore update command usage</caption>
+            <image type="source">https://dropboxignore.simakis.me/static/screenshots/update.png</image>
         </screenshot>
         <screenshot>
-            <caption>dropboxognore revert command usage</caption>
-            <image type="source">https://raw.githubusercontent.com/sp1thas/dropboxignore/master/docs/static/revert.png</image>
+            <caption>dropboxignore revert command usage</caption>
+            <image type="source">https://dropboxignore.simakis.me/static/screenshots/revert.png</image>
         </screenshot>
         <screenshot>
-            <caption>dropboxognore help command usage</caption>
-            <image type="source">https://raw.githubusercontent.com/sp1thas/dropboxignore/master/docs/static/help.png</image>
+            <caption>dropboxignore help command usage</caption>
+            <image type="source">https://dropboxignore.simakis.me/static/screenshots/help.png</image>
         </screenshot>
     </screenshots>
     <releases>
