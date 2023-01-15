@@ -10,8 +10,8 @@ modules:
  - name: dropboxingore
    buildsystem: simple
    build-commands:
-     - make install
-     - install -D /usr/local/bin/dropboxignore /app/bin/dropboxignore.sh
+     - sudo make install
+     - install -D src/bin/cli.sh /app/bin/dropboxignore.sh
      - install -Dm644 docs/static/icons/64.png ${FLATPAK_DEST}/share/icons/hicolor/64x64/apps/${FLATPAK_ID}.png
      - install -Dm644 docs/static/icons/128.png ${FLATPAK_DEST}/share/icons/hicolor/128x128/apps/${FLATPAK_ID}.png
      - install -Dm644 docs/static/icons/256.png ${FLATPAK_DEST}/share/icons/hicolor/256x256/apps/${FLATPAK_ID}.png
