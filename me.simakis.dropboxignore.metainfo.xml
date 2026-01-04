@@ -4,18 +4,18 @@
     <metadata_license>CC0-1.0</metadata_license>
     <project_license>GPL-3.0-or-later</project_license>
     <name>dropboxignore</name>
-    <summary>It's all about the missing .dropboxignore file.</summary>
+    <summary>It's all about the missing .dropboxignore file</summary>
     <description>
         <p>This CLI shell script aims to take advantage of glob patterns and existing .gitignore files in order to
             exclude specific folders and files from  dropbox sync. The shell script uses this recent approach to ignore
             the matched folders and files.
         </p>
     </description>
-    <url type="homepage">https://dropboxignore.simakis.me</url>
+    <url type="homepage">https://github.com/sp1thas/dropboxignore</url>
     <url type="bugtracker">https://github.com/sp1thas/dropboxignore/issues</url>
     <url type="vcs-browser">https://github.com/sp1thas/dropboxignore</url>
     <url type="contact">https://simakis.me/contact</url>
-    <launchable typ="desktop-id">me.simakis.dropboxignore.desktop</launchable>
+    <launchable type="desktop-id">me.simakis.dropboxignore.desktop</launchable>
     <developer id="me.simakis">
         <name>Panagiotis Simakis</name>
     </developer>
@@ -26,35 +26,19 @@
     <screenshots>
         <screenshot type="default">
             <caption>dropboxignore ignore command usage</caption>
-            <image type="source">https://dropboxignore.simakis.me/static/screenshots/ignore.png</image>
-        </screenshot>
-        <screenshot>
-            <caption>dropboxignore genupi command usage</caption>
-            <image type="source">https://dropboxignore.simakis.me/static/screenshots/genupi.png</image>
+            <image type="source">https://dl.flathub.org/repo/screenshots/me.simakis.dropboxignore-stable/752x423/me.simakis.dropboxignore-112e8476302874e03148d3909f468265.webp</image>
         </screenshot>
         <screenshot>
             <caption>dropboxignore list command usage</caption>
-            <image type="source">https://dropboxignore.simakis.me/static/screenshots/list.png</image>
+            <image type="source">https://dl.flathub.org/repo/screenshots/me.simakis.dropboxignore-stable/752x423/me.simakis.dropboxignore-bd2e0e0263876a5c0b0c7ff0800ae3af.webp</image>
         </screenshot>
         <screenshot>
             <caption>dropboxignore generate command usage</caption>
-            <image type="source">https://dropboxignore.simakis.me/static/screenshots/generate.png</image>
+            <image type="source">https://dl.flathub.org/repo/screenshots/me.simakis.dropboxignore-stable/752x423/me.simakis.dropboxignore-b00bf84d674bed5ee0230667fea5ba63.webp</image>
         </screenshot>
         <screenshot>
             <caption>dropboxignore delete command usage</caption>
-            <image type="source">https://dropboxignore.simakis.me/static/screenshots/delete.png</image>
-        </screenshot>
-        <screenshot>
-            <caption>dropboxignore update command usage</caption>
-            <image type="source">https://dropboxignore.simakis.me/static/screenshots/update.png</image>
-        </screenshot>
-        <screenshot>
-            <caption>dropboxignore revert command usage</caption>
-            <image type="source">https://dropboxignore.simakis.me/static/screenshots/revert.png</image>
-        </screenshot>
-        <screenshot>
-            <caption>dropboxignore help command usage</caption>
-            <image type="source">https://dropboxignore.simakis.me/static/screenshots/help.png</image>
+            <image type="source">https://dl.flathub.org/repo/screenshots/me.simakis.dropboxignore-stable/752x423/me.simakis.dropboxignore-a928865f5c287a948cfe7d03b5159bfc.webp</image>
         </screenshot>
     </screenshots>
     <releases>
