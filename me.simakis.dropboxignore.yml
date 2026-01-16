@@ -1,9 +1,13 @@
 app-id: me.simakis.dropboxignore
 runtime: org.freedesktop.Platform
-runtime-version: '21.08'
+runtime-version: '25.08'
 sdk: org.freedesktop.Sdk
 finish-args:
   - --filesystem=home
+  - --socket=fallback-x11
+  - --socket=wayland
+  - --device=dri
+  - --share=ipc
 command: dropboxignore.sh
 
 modules:

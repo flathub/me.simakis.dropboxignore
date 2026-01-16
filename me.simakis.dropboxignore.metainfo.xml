@@ -1,73 +1,44 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <component type="console-application">
     <id>me.simakis.dropboxignore</id>
-    <name>dropboxignore</name>
-    <summary>It's all about the missing .dropboxignore file.</summary>
-    <url type="homepage">https://dropboxignore.simakis.me</url>
-    <url type="bugtracker">https://github.com/sp1thas/dropboxignore/issues</url>
-    <url type="contact">https://simakis.me/contact</url>
     <metadata_license>CC0-1.0</metadata_license>
-    <project_license>GPL-3.0-or-later</project_license>\
+    <project_license>GPL-3.0-or-later</project_license>
+    <name>dropboxignore</name>
+    <summary>It's all about the missing .dropboxignore file</summary>
     <description>
         <p>This CLI shell script aims to take advantage of glob patterns and existing .gitignore files in order to
             exclude specific folders and files from  dropbox sync. The shell script uses this recent approach to ignore
             the matched folders and files.
         </p>
     </description>
-    <content_rating type="oars-1.0">
-        <content_attribute id="violence-cartoon">none</content_attribute>
-        <content_attribute id="violence-fantasy">none</content_attribute>
-        <content_attribute id="violence-realistic">none</content_attribute>
-        <content_attribute id="violence-bloodshed">none</content_attribute>
-        <content_attribute id="violence-sexual">none</content_attribute>
-        <content_attribute id="drugs-alcohol">none</content_attribute>
-        <content_attribute id="drugs-narcotics">none</content_attribute>
-        <content_attribute id="drugs-tobacco">none</content_attribute>
-        <content_attribute id="sex-nudity">none</content_attribute>
-        <content_attribute id="sex-themes">none</content_attribute>
-        <content_attribute id="language-profanity">none</content_attribute>
-        <content_attribute id="language-humor">none</content_attribute>
-        <content_attribute id="language-discrimination">none</content_attribute>
-        <content_attribute id="social-chat">none</content_attribute>
-        <content_attribute id="social-info">none</content_attribute>
-        <content_attribute id="social-audio">none</content_attribute>
-        <content_attribute id="social-location">none</content_attribute>
-        <content_attribute id="social-contacts">none</content_attribute>
-        <content_attribute id="money-purchasing">none</content_attribute>
-        <content_attribute id="money-gambling">none</content_attribute>
-  </content_rating>
+    <url type="homepage">https://github.com/sp1thas/dropboxignore</url>
+    <url type="bugtracker">https://github.com/sp1thas/dropboxignore/issues</url>
+    <url type="vcs-browser">https://github.com/sp1thas/dropboxignore</url>
+    <url type="contact">https://simakis.me/contact</url>
+    <launchable type="desktop-id">me.simakis.dropboxignore.desktop</launchable>
+    <developer id="me.simakis">
+        <name>Panagiotis Simakis</name>
+    </developer>
+    <content_rating type="oars-1.1"/>
+    <provides>
+        <binary>dropboxignore.sh</binary>
+    </provides>
     <screenshots>
         <screenshot type="default">
             <caption>dropboxignore ignore command usage</caption>
-            <image type="source">https://dropboxignore.simakis.me/static/screenshots/ignore.png</image>
-        </screenshot>
-        <screenshot>
-            <caption>dropboxignore genupi command usage</caption>
-            <image type="source">https://dropboxignore.simakis.me/static/screenshots/genupi.png</image>
+            <image type="source">https://dl.flathub.org/repo/screenshots/me.simakis.dropboxignore-stable/752x423/me.simakis.dropboxignore-112e8476302874e03148d3909f468265.webp</image>
         </screenshot>
         <screenshot>
             <caption>dropboxignore list command usage</caption>
-            <image type="source">https://dropboxignore.simakis.me/static/screenshots/list.png</image>
+            <image type="source">https://dl.flathub.org/repo/screenshots/me.simakis.dropboxignore-stable/752x423/me.simakis.dropboxignore-bd2e0e0263876a5c0b0c7ff0800ae3af.webp</image>
         </screenshot>
         <screenshot>
             <caption>dropboxignore generate command usage</caption>
-            <image type="source">https://dropboxignore.simakis.me/static/screenshots/generate.png</image>
+            <image type="source">https://dl.flathub.org/repo/screenshots/me.simakis.dropboxignore-stable/752x423/me.simakis.dropboxignore-b00bf84d674bed5ee0230667fea5ba63.webp</image>
         </screenshot>
         <screenshot>
             <caption>dropboxignore delete command usage</caption>
-            <image type="source">https://dropboxignore.simakis.me/static/screenshots/delete.png</image>
-        </screenshot>
-        <screenshot>
-            <caption>dropboxignore update command usage</caption>
-            <image type="source">https://dropboxignore.simakis.me/static/screenshots/update.png</image>
-        </screenshot>
-        <screenshot>
-            <caption>dropboxignore revert command usage</caption>
-            <image type="source">https://dropboxignore.simakis.me/static/screenshots/revert.png</image>
-        </screenshot>
-        <screenshot>
-            <caption>dropboxignore help command usage</caption>
-            <image type="source">https://dropboxignore.simakis.me/static/screenshots/help.png</image>
+            <image type="source">https://dl.flathub.org/repo/screenshots/me.simakis.dropboxignore-stable/752x423/me.simakis.dropboxignore-a928865f5c287a948cfe7d03b5159bfc.webp</image>
         </screenshot>
     </screenshots>
     <releases>
